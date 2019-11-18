@@ -954,7 +954,7 @@
 												<input type="text" class="form-control" placeholder="Name">
 											</div>
 											<div class="form-group">
-												<input type="text" class="form-control" placeholder="Email">
+												<input type="email" class="form-control" placeholder="Email">
 											</div>
 											<div class="form-group">
 												<input type="text" class="form-control" placeholder="Subject">
@@ -963,6 +963,9 @@
 												<textarea name="message" id="message" cols="30" rows="7"
 													class="form-control" placeholder="Message"></textarea>
 											</div>
+											  <!-- Hidden elements here -->
+            										<input type="hidden" name="_subject" value="New email from Contact Me Form!">
+											<input type="hidden" name="_next" value="thanks.html" />
 											<div class="form-group">
 												<input type="submit" class="btn btn-primary btn-send-message"
 													value="Send Message">
